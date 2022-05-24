@@ -57,7 +57,7 @@ export default function Form() {
         <div>
           <label>Password</label>
           <input
-            placeholder="Enter Password"
+            placeholder="Enter Password" type="password"
             {...register("password", {
               required: true,
               minLength: 5,
